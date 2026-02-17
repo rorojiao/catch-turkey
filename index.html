@@ -1549,12 +1549,16 @@ const G = {
       const t=this.turkeys.find(t=>t.removed&&t.typeId===s.typeId);
       if(t){
         t.removed=false;
+        t.el.classList.remove('picked','blocked','shake-blocked');
         t.el.style.display='';
         t.el.style.position='';
         t.el.style.left=t.x+'px';
         t.el.style.top=t.y+'px';
         t.el.style.transform='';
         t.el.style.opacity='';
+        t.el.style.width='';
+        t.el.style.height='';
+        t.el.style.pointerEvents='';
         t.el.style.zIndex=t.layer*100+Math.floor(t.y);
         t.el.style.transition='all .4s ease';
         t.el.classList.add('idle');
