@@ -27,7 +27,7 @@ body{font-family:'ZCOOL KuaiLe','Lilita One',-apple-system,BlinkMacSystemFont,'S
 
 #loadingScreen .logo{font-size:56px;margin-bottom:10px;animation:logoBounce 1s ease infinite;filter:drop-shadow(0 4px 12px rgba(0,0,0,.4))}
 
-#loadingScreen h1{font-size:40px;font-weight:900;color:#FFE44D;-webkit-text-fill-color:#FFE44D;-webkit-background-clip:unset;background-clip:unset;background:none;-webkit-text-stroke:3px #000;text-shadow:0 0 0 #000,0 4px 0 #000,0 5px 0 rgba(0,0,0,.7),0 6px 10px rgba(0,0,0,.4);margin-bottom:30px;letter-spacing:6px;filter:none}
+#loadingScreen h1{font-size:40px;font-weight:900;color:#FFD740;-webkit-text-fill-color:#FFD740;-webkit-background-clip:unset;background-clip:unset;background:none;-webkit-text-stroke:1.5px #000;text-shadow:-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,2px 2px 0 #000,0 -2px 0 #000,0 2px 0 #000,-2px 0 0 #000,2px 0 0 #000,0 4px 0 rgba(0,0,0,.6),0 5px 10px rgba(0,0,0,.4);margin-bottom:30px;letter-spacing:6px;filter:none}
 
 .loading-bar{width:60%;height:8px;background:rgba(255,255,255,.15);border-radius:4px;overflow:hidden}
 
@@ -44,11 +44,11 @@ body{font-family:'ZCOOL KuaiLe','Lilita One',-apple-system,BlinkMacSystemFont,'S
 .home-title h1{margin-top:5px;position:relative}
 .home-title h1 img{width:280px;display:block;margin:0 auto;filter:drop-shadow(0 4px 8px rgba(0,0,0,.4))}
 
-.home-title .sub{font-size:20px;color:#FFE44D;margin-top:10px;-webkit-text-stroke:2px #000;text-shadow:0 0 0 #000,0 3px 0 #000,0 4px 0 rgba(0,0,0,.7),0 5px 8px rgba(0,0,0,.4);letter-spacing:4px;font-weight:900}
+.home-title .sub{font-size:20px;color:#FFD740;margin-top:10px;-webkit-text-stroke:1px #000;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,0 -1px 0 #000,0 1px 0 #000,-1px 0 0 #000,1px 0 0 #000,0 3px 0 rgba(0,0,0,.5),0 4px 8px rgba(0,0,0,.3);letter-spacing:4px;font-weight:900}
 
 .home-btns{position:relative;z-index:2;display:flex;flex-direction:column;gap:16px;width:75%;max-width:280px}
 
-.btn{border:3px solid transparent;border-radius:30px;padding:16px 24px;font-size:22px;font-weight:900;cursor:pointer;transition:transform .1s,box-shadow .1s;text-align:center;letter-spacing:3px;position:relative;overflow:hidden;-webkit-text-stroke:1.5px rgba(0,0,0,.2);text-shadow:0 2px 0 rgba(0,0,0,.2);transform:translateY(0);color:#fff}
+.btn{border:3px solid transparent;border-radius:30px;padding:16px 24px;font-size:22px;font-weight:900;cursor:pointer;transition:transform .1s,box-shadow .1s;text-align:center;letter-spacing:3px;position:relative;overflow:hidden;-webkit-text-stroke:0px;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,0 2px 0 rgba(0,0,0,.6),0 3px 6px rgba(0,0,0,.3);transform:translateY(0);color:#fff
 
 .btn:active{transform:translateY(3px)}
 
@@ -68,7 +68,7 @@ body{font-family:'ZCOOL KuaiLe','Lilita One',-apple-system,BlinkMacSystemFont,'S
 
 .daily-reward .gift{font-size:22px;line-height:1}
 
-.daily-reward .text{font-size:9px;margin-top:1px}
+.daily-reward .text{font-size:10px;margin-top:1px;-webkit-text-stroke:0px;text-shadow:0 1px 2px rgba(0,0,0,.5)}
 
 #levelScreen{background:linear-gradient(180deg,#0D1B2A 0%,#1B2838 50%,#253547 100%);padding:0 20px;padding-top:calc(60px + env(safe-area-inset-top,0px))}
 
@@ -78,7 +78,7 @@ body{font-family:'ZCOOL KuaiLe','Lilita One',-apple-system,BlinkMacSystemFont,'S
 
 .back-btn:active{transform:scale(.9)}
 
-.screen-title{flex:1;text-align:center;font-size:24px;font-weight:900;color:#FFE44D;letter-spacing:2px;-webkit-text-stroke:2px #000;text-shadow:0 0 0 #000,0 3px 0 #000,0 4px 0 rgba(0,0,0,.7),0 5px 8px rgba(0,0,0,.4)}
+.screen-title{flex:1;text-align:center;font-size:26px;font-weight:900;color:#FFF;letter-spacing:3px;-webkit-text-stroke:1px #000;text-shadow:-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,2px 2px 0 #000,0 -2px 0 #000,0 2px 0 #000,-2px 0 0 #000,2px 0 0 #000,0 4px 0 rgba(0,0,0,.6),0 5px 10px rgba(0,0,0,.4)}
 
 .level-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;width:100%;max-width:350px;margin:30px auto;overflow-y:auto;max-height:calc(100vh - 120px);padding-bottom:30px}
 
@@ -90,9 +90,9 @@ body{font-family:'ZCOOL KuaiLe','Lilita One',-apple-system,BlinkMacSystemFont,'S
 
 .level-card.locked:active{transform:none}
 
-.level-card .num{font-size:32px;font-weight:900;color:#FFF;-webkit-text-stroke:2.5px #000;text-shadow:0 0 0 #000,0 3px 0 #000,0 4px 6px rgba(0,0,0,.4)}
+.level-card .num{font-size:36px;font-weight:900;color:#FFF;-webkit-text-stroke:1.5px #000;text-shadow:-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,2px 2px 0 #000,0 -2px 0 #000,0 2px 0 #000,-2px 0 0 #000,2px 0 0 #000,0 4px 0 rgba(0,0,0,.6),0 5px 10px rgba(0,0,0,.4)}
 
-.level-card .name{font-size:14px;color:#fff;margin-top:4px;text-align:center;padding:0 4px;font-weight:900;-webkit-text-stroke:1px #000;text-shadow:0 1px 0 #000,0 2px 4px rgba(0,0,0,.4)}
+.level-card .name{font-size:14px;color:#FFF;margin-top:4px;text-align:center;padding:0 4px;font-weight:900;-webkit-text-stroke:0px;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,0 2px 0 rgba(0,0,0,.5),0 3px 6px rgba(0,0,0,.3)}
 
 .level-card .stars{margin-top:5px;font-size:16px;letter-spacing:3px;color:#FFE44D;-webkit-text-stroke:1px #000;text-shadow:0 2px 0 #000,0 0 6px rgba(255,215,0,.4)}
 
@@ -132,7 +132,7 @@ body{font-family:'ZCOOL KuaiLe','Lilita One',-apple-system,BlinkMacSystemFont,'S
 
 .hud-pause:active{transform:scale(.9)}
 
-.hud-level{font-size:16px;font-weight:900;color:#FFE44D;-webkit-text-stroke:1.5px #000;text-shadow:0 2px 0 #000,0 3px 6px rgba(0,0,0,.4)}
+.hud-level{font-size:16px;font-weight:900;color:#FFD740;-webkit-text-stroke:0.5px #000;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,0 -1px 0 #000,0 1px 0 #000,-1px 0 0 #000,1px 0 0 #000,0 3px 0 rgba(0,0,0,.5),0 4px 8px rgba(0,0,0,.3)}
 
 .hud-center{display:flex;flex-direction:column;align-items:center}
 
@@ -210,7 +210,7 @@ body{font-family:'ZCOOL KuaiLe','Lilita One',-apple-system,BlinkMacSystemFont,'S
 
 .prop-btn .icon{font-size:24px;line-height:1}
 
-.prop-btn .plabel{font-size:13px;color:#fff;margin-top:2px;font-weight:900;-webkit-text-stroke:1px rgba(0,0,0,.5);text-shadow:0 1px 0 rgba(0,0,0,.5),0 2px 4px rgba(0,0,0,.3)}
+.prop-btn .plabel{font-size:13px;color:#fff;margin-top:2px;font-weight:900;-webkit-text-stroke:0px;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,0 2px 0 rgba(0,0,0,.5),0 3px 6px rgba(0,0,0,.3)}
 
 .prop-btn .count{position:absolute;top:-5px;right:-5px;min-width:20px;height:20px;background:#FF4444;border-radius:10px;font-size:11px;font-weight:700;color:#fff;display:flex;align-items:center;justify-content:center;padding:0 5px;box-shadow:0 2px 4px rgba(0,0,0,.3)}
 
@@ -232,17 +232,17 @@ body{font-family:'ZCOOL KuaiLe','Lilita One',-apple-system,BlinkMacSystemFont,'S
 
 .popup{background:linear-gradient(180deg,#1A237E 0%,#283593 50%,#1565C0 100%);border-radius:28px;padding:28px 24px;width:85%;max-width:340px;text-align:center;border:3px solid #000;box-shadow:0 0 0 2px #FFD740,0 8px 30px rgba(0,0,0,.5),inset 0 2px 0 rgba(255,255,255,.2),inset 0 -2px 0 rgba(0,0,0,.3);color:#FFF;animation:popupIn .4s cubic-bezier(.2,.8,.3,1.2)}
 
-.popup h2{font-size:32px;color:#FFE44D;margin-bottom:6px;font-weight:900;-webkit-text-stroke:3px #000;text-shadow:0 0 0 #000,0 4px 0 #000,0 5px 0 rgba(0,0,0,.7),0 6px 10px rgba(0,0,0,.4)}
+.popup h2{font-size:32px;color:#FFD740;margin-bottom:8px;font-weight:900;-webkit-text-stroke:1.5px #000;text-shadow:-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,2px 2px 0 #000,0 -2px 0 #000,0 2px 0 #000,-2px 0 0 #000,2px 0 0 #000,0 4px 0 rgba(0,0,0,.6),0 5px 10px rgba(0,0,0,.4)}
 
-.popup .subtitle{font-size:13px;color:rgba(255,255,255,.6);margin-bottom:20px}
+.popup .subtitle{font-size:14px;color:#B0BEC5;margin-bottom:20px;-webkit-text-stroke:0px;text-shadow:0 1px 2px rgba(0,0,0,.5)}
 
 .popup .stars-display{font-size:36px;letter-spacing:8px;margin:10px 0}
 
-.popup .score-display{font-size:18px;color:#FFD740;margin:8px 0;font-weight:900;-webkit-text-stroke:1px #000}
+.popup .score-display{font-size:18px;color:#FFD740;margin:8px 0;font-weight:900;-webkit-text-stroke:0.5px #000;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,0 2px 0 rgba(0,0,0,.5),0 3px 6px rgba(0,0,0,.3)}
 
 .popup .card-reward{width:80px;height:100px;margin:12px auto;background:linear-gradient(135deg,#FFD700,#FFA500);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:40px;box-shadow:0 4px 15px rgba(255,165,0,.4);animation:cardReveal .8s ease .3s both}
 
-.popup .card-name{font-size:14px;color:#FFD740;margin-top:6px;-webkit-text-stroke:0.5px #000}
+.popup .card-name{font-size:14px;color:#FFD740;margin-top:6px;-webkit-text-stroke:0px;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,0 2px 0 rgba(0,0,0,.5),0 3px 6px rgba(0,0,0,.3)}
 
 .popup .btn-row{display:flex;gap:10px;margin-top:18px;justify-content:center}
 
@@ -280,7 +280,7 @@ body{font-family:'ZCOOL KuaiLe','Lilita One',-apple-system,BlinkMacSystemFont,'S
 
 .setting-item{display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.1)}
 
-.setting-item .label{font-size:16px;color:#FFF;font-weight:900;-webkit-text-stroke:0.5px #000;text-shadow:0 1px 0 #000}
+.setting-item .label{font-size:16px;color:#fff;-webkit-text-stroke:0px;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,0 2px 0 rgba(0,0,0,.5),0 3px 6px rgba(0,0,0,.3)}
 
 .toggle{width:50px;height:28px;background:rgba(255,255,255,.2);border-radius:14px;position:relative;cursor:pointer;transition:background .3s;border:none}
 
@@ -298,9 +298,9 @@ body{font-family:'ZCOOL KuaiLe','Lilita One',-apple-system,BlinkMacSystemFont,'S
 
 .tutorial-finger{position:absolute;font-size:40px;animation:fingerTap 1.5s ease infinite;pointer-events:none;filter:drop-shadow(0 2px 4px rgba(0,0,0,.5))}
 
-.tutorial-text{position:absolute;bottom:200px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.8);color:#fff;padding:10px 20px;border-radius:12px;font-size:14px;white-space:nowrap}
+.tutorial-text{position:absolute;bottom:200px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.85);color:#fff;padding:12px 24px;border-radius:12px;font-size:16px;white-space:nowrap;-webkit-text-stroke:0px;text-shadow:none;border:2px solid #FFD740}
 
-.tutorial-skip{position:absolute;top:calc(60px + env(safe-area-inset-top,0px));right:12px;background:rgba(0,0,0,.5);color:#fff;border:1px solid rgba(255,255,255,.3);border-radius:20px;padding:6px 14px;font-size:12px;cursor:pointer;pointer-events:auto}
+.tutorial-skip{position:absolute;top:calc(60px + env(safe-area-inset-top,0px));right:12px;background:rgba(0,0,0,.7);color:#fff;border:2px solid rgba(255,255,255,.5);border-radius:20px;padding:8px 16px;font-size:14px;cursor:pointer;pointer-events:auto;-webkit-text-stroke:0px;text-shadow:none}
 
 .countdown-overlay{position:absolute;top:0;left:0;width:100%;height:100%;z-index:120;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.4)}
 
